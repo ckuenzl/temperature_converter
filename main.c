@@ -13,11 +13,7 @@ void convert_program();
 double temperature_converter(double temperature_input);
 double convert_to_centigrade(double temperature_input);
 double convert_to_output_unit(double centigrade);
-//Util functions
-int get_int_input(char *input_txt);
 void print_result(double temperature_input, double converted_temperature);
-bool input_is_between(int min, int max, int input);
-void clear_console();
 
 int temperature_input_unit;
 int temperature_output_unit;
